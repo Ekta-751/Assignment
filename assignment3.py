@@ -41,7 +41,33 @@ p1=[list3,list4]
 print(p1)
 print("\n")
 
+#implement a stack & queues using list
+print("stack")
+list5=["I","love","Mom"]
+print(list5)
+print(list5.append("Bhi"))
+print(list5)
+print(list5.pop())
+print(list5)
+print("queues")
+list6=["I","love","Mom"]
+print(list6)
+print(list6.append("Bhi"))
+print(list6)
+del list6[0]
+print(list6)
 
+#count even & odd number in that list.
+list7=[1,2,3,4,5,6]
+even_count=0
+odd_count=0
+for x in list7:
+	if(x%2 == 0):
+		even_count=even_count+1
+	else:
+		odd_count=odd_count+1
+	print("count the even number",even_count)
+	print("count the odd number ",odd_count)
 
 
  

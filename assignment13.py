@@ -80,6 +80,7 @@ while True:
         raise ValueTooSmallError("exception")
       else:
         print("eligible")
+        break
    except ValueTooSmallError as e:
         print("this value is too samll ,try again!")
         print(e)

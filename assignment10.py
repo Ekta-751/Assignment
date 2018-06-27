@@ -9,7 +9,7 @@ a.animal_attribute()
 
 #Write The Output of a Code
 class A:
-    def f(self):
+    def f(self): 
         return self.g()
 
     def g(self):
